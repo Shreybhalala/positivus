@@ -1,0 +1,162 @@
+/* working header */
+.working-header {
+    display: flex;
+    padding-left: 90px;
+    align-items: center;
+    gap: 40px;
+}
+
+.working-text {
+    font-size: 40px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.working-sub-text {
+    font-size: var(--fs-18);
+    color: var(--font-color);
+    width: 292px;
+}
+
+/* working header */
+.working-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.working-box-main{
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    padding:  0 40px;
+    margin: 0 80px;
+
+}
+.working-box-main:hover {
+    background-color: var(--primary-color);
+}
+.working-box-main:hover .dropdown-content{
+   display: block;
+}
+.working-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black
+}
+
+.Consultation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.numbers  {
+    font-size: var(--fs-60);
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+
+.heading {
+    font-size: var(--fs-30);
+    font-weight: 500;
+    color: #000000;
+}
+.dropdown-content{
+    display: none;
+}
+
+
+/* hover */
+
+
+
+@media (max-width: 768px) {
+
+    .working-header {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .working-text {
+        width: 100%;
+        max-width: 226px;
+        font-size: 36px;
+        font-weight: 500;
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .working-sub-text {
+        font-size: var(--fs-16);
+        color: var(--font-color);
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+
+
+    .working-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .working-box-main{
+        background-color: #F3F3F3;
+        border-radius: 45px;
+        border: 1px solid black;
+        border-bottom: 2px solid black;
+        padding:  0 40px;
+        margin: 0 10px;
+    
+    }
+    .working-box-main:hover {
+        background-color: var(--primary-color);
+    }
+    .working-box-main:hover .dropdown-content{
+       display: block;
+    }
+    .working-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: none;
+    }
+    
+    .Consultation {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .numbers  {
+        font-size: var(--fs-30);
+        font-weight: 500;
+        color: #000000;
+        margin: 0;
+    }
+    
+    .heading {
+        font-size: var(--fs-18);
+        font-weight: 500;
+        color: #000000;
+    }
+
+    .plus-button{
+        width: 30px;
+        height: 30px;
+    }
+}

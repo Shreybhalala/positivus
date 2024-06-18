@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #B9FF66;
+    --secondary-color: #191A23;
+    --font-color: hsl(0, 0%, 0%);
+
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-30:30px;
+    --fs-40: 40px;
+    --fs-60: 60px;
+}
