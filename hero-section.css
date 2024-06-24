@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    padding: 0;
     font-family: Space Grotesk;
     width: 100%;
     max-width: 1920px;
-    height: 100%;
     background-color: #FFFFFF;
+
 }
 
 /* navigation section starts */
@@ -17,18 +16,12 @@ body {
     padding-top: 40px;
 }
 
-.nav-bar {
-    margin-left: 200px;
-}
-
 .nav-bar-lists {
     display: flex;
     list-style-type: none;
     text-wrap: nowrap;
-}
-
-.nav-bar-lists li {
-    padding-left: 20px;
+    gap: 20px;
+    padding: 0;
 }
 
 .nav-bar-lists a {
@@ -97,10 +90,9 @@ body {
     top: 0;
     right: 25px;
     font-size: 36px;
-
 }
-/* sidebar */
 
+/* sidebar */
 /* navigation section ends */
 
 
@@ -118,13 +110,14 @@ body {
     align-items: center;
 }
 
-.navigating-header-text p{
+.navigating-header-text p {
     font-weight: 500;
     font-size: var(--fs-60);
     width: 531px;
+    margin: 0;
 }
 
-.navigating-subtext p{
+.navigating-subtext p {
     width: 498px;
     color: #000000;
     font-size: var(--fs-20);
@@ -135,7 +128,7 @@ body {
     border-radius: 14px;
     width: 264px;
     height: 68px;
-    font-size:  var(--fs-20);
+    font-size: var(--fs-20);
     background-color: var(--secondary-color);
     color: #FFFFFF;
 }
@@ -174,11 +167,12 @@ body {
         width: 20px;
         height: 20px;
     }
+
     .positivus-navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 40px; 
+        padding-top: 40px;
     }
 
     .request-btn {
@@ -190,8 +184,9 @@ body {
         font-size: 43px;
         width: 100%;
     }
-    .navigating-subtext p{
-        width: 100%;;
+
+    .navigating-subtext p {
+        width: 100%;
         color: #000000;
         font-size: 16px;
         line-height: 24px;
@@ -205,23 +200,20 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .text-section{
-        padding-left: 10px;
+    .text-section {
+        padding-top: 40px;
     }
 
     .consultation-button {
-        border-radius: 14px;
-        width: 380px;
+        width: 100%;
+        max-width: 390px;
         height: 68px;
         font-size: 20px;
-        background-color: var(--secondary-color);
-        color: #FFFFFF;
     }
 
     .hero-banner {
         padding-top: 40px;
-        width: 361px;
-        height: 310px;
+        width: 100%;
     }
 }
 
@@ -234,43 +226,53 @@ body {
     .hero-section-items {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding-top: 0px;
+        padding-top: 10px;
     }
 
-    .company-logo-bar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+    .positivus-navbar {
+        justify-content: space-between;
     }
 
     .nav-bar {
-        margin-left: 0px;
+        display: none;
     }
 
     .request-btn {
-        width: 158px;
-        height: 51px;
-        border-radius: 14px;
-        border: 1px solid #191A23;
-        background-color: transparent;
-        color: #000000;
-        font-size: 16px;
-        text-wrap: nowrap;
+        display: none;
     }
 
-    .text-section{
-        padding-left: 10px;
+    .hamburger {
+        display: block;
     }
+
+    .hamburger-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .company-logo-bar {
+        display: grid;
+        grid-gap: 10px;
+        padding-top: 40px;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .text-section {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
     .navigating-header-text p {
         font-weight: 500;
         color: #000000;
         font-size: 60px;
         width: 100%;
     }
-    .navigating-subtext p{
-        width: 100%;;
+
+    .navigating-subtext p {
+        width: 100%;
         color: #000000;
         font-size: 16px;
         line-height: 24px;
@@ -280,5 +282,12 @@ body {
 /* tablet responsive media query */
 
 @media (min-width: 992px) and (max-width:1200px) {
-    
+
+    .navigating-header-text p {
+        width: 654px;
     }
+
+    .hero-banner {
+        width: 100%;
+    }
+}

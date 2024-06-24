@@ -37,6 +37,9 @@
 }
 
 @media (max-width: 768px) {
+    .free-proposal-section{
+        padding-top: 40px;
+    }
     .proposal-main {
         border-radius: 45px;
         margin: 0 40px;
@@ -68,6 +71,9 @@
 }
 @media (min-width: 768px) and (max-width:992px){
 
+    .free-proposal-section{
+        padding-top: 40px;
+    }
 
     .proposal-main-content {
         display: flex;
@@ -96,5 +102,10 @@
     .free-proposal-button {
         margin: 0;
         width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width:1200px){
+    .free-proposal-section{
+        padding-top: 40px;
     }
 }

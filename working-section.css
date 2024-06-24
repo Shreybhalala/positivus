@@ -19,8 +19,8 @@
     color: var(--font-color);
     width: 292px;
 }
-
 /* working header */
+
 .working-content{
     display: flex;
     flex-direction: column;
@@ -105,9 +105,6 @@
         margin: 0;
         padding-bottom: 40px;
     }
-
-
-
     .working-content{
         display: flex;
         flex-direction: column;

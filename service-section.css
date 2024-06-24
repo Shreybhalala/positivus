@@ -116,7 +116,6 @@
         display: flex;
         flex-direction: column;
         padding-left: 0px;
-        align-items: center;
         gap: 0px;
         width: 100%;
     }
@@ -124,15 +123,10 @@
     .service-text {
         width: 161px;
         font-size: 36px;
-        font-weight: 500;
-        background-color: var(--primary-color);
-        border-radius: 5px;
-        text-align: center;
     }
 
     .service-sub-text {
         font-size: var(--fs-16);
-        color: var(--font-color);
         width: 100%;
         text-align: center;
         margin: 0;
@@ -146,19 +140,11 @@
         column-gap: 0px;
         padding: 0;
         justify-items: center;
-
     }
 
     .service-card {
         display: flex;
         flex-direction: column;
-        border-radius: 45px;
-        border: 1px solid black;
-        border-bottom: 4px solid black;
-        padding: 50px;
-        background-color: #F3F3F3;
-        margin: 0 auto;
-        margin: 0;
     }
 
 
@@ -166,27 +152,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 10px;
     }
-
 
     .card-text {
         font-size: 26px;
         font-weight: 500;
-        background-color: var(--primary-color);
         width: 194px;
-        border-radius: 7px;
-        margin: 0;
     }
 
     .neon-service-card {
         display: flex;
         flex-direction: column;
-        border-radius: 45px;
-        border: 1px solid black;
-        border-bottom: 4px solid black;
-        padding: 50px;
-        background-color: var(--primary-color);
-        justify-content: center;
+        align-items: center;
     }
 
     .neon-card-text {
@@ -217,10 +195,6 @@
         display: none;
     }
 
-    .arrow-button-image {
-        padding-top: 20px;
-    }
-
     .arrow-button-text {
         display: none;
     }
@@ -236,7 +210,6 @@
     .service-header {
         display: flex;
         padding-left: 0;
-        align-items: center;
         gap: 40px;
         justify-content: center;
     }
@@ -252,52 +225,17 @@
 
     .card-text {
         font-size: 26px;
-        font-weight: 500;
-        background-color: var(--primary-color);
         width: 194px;
-        border-radius: 7px;
-        margin: 0;
-    }
-
-    .neon-service-card {
-        display: flex;
-        border-radius: 45px;
-        border: 1px solid black;
-        border-bottom: 4px solid black;
-        padding: 50px;
-        background-color: var(--primary-color);
-        justify-content: center;
     }
 
     .neon-card-text {
         font-size: 26px;
-        font-weight: 500;
-        background-color: #FFFFFF;
         width: 194px;
-        border-radius: 7px;
-        margin: 0;
     }
-
-    .blue-service-card {
-        display: flex;
-        border-radius: 45px;
-        padding: 50px;
-        background-color: #191A23;
-        justify-content: center;
-    }
-
 }
 
 
 @media (min-width: 992px) and (max-width:1200px) {
-    .service-header {
-        display: flex;
-        padding-left: 0;
-        align-items: center;
-        gap: 40px;
-        justify-content: center;
-    }
-
     .service-card-containers {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -309,37 +247,23 @@
 
     .card-text {
         font-size: 26px;
-        font-weight: 500;
-        background-color: var(--primary-color);
         width: 194px;
-        border-radius: 7px;
-        margin: 0;
-    }
-
-    .neon-service-card {
-        display: flex;
-        border-radius: 45px;
-        border: 1px solid black;
-        border-bottom: 4px solid black;
-        padding: 50px;
-        background-color: var(--primary-color);
-        justify-content: center;
     }
 
     .neon-card-text {
         font-size: 26px;
-        font-weight: 500;
-        background-color: #FFFFFF;
         width: 194px;
-        border-radius: 7px;
-        margin: 0;
+    }
+
+    .service-card {
+        padding: 30px;
     }
 
     .blue-service-card {
-        display: flex;
-        border-radius: 45px;
-        padding: 50px;
-        background-color: #191A23;
-        justify-content: center;
+        padding: 30px;
+    }
+
+    .neon-service-card {
+        padding: 30px;
     }
 }

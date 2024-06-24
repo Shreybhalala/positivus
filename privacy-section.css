@@ -1,0 +1,218 @@
+.privacy-policy-section {
+    background-color: var(--secondary-color);
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin-top: 80px;
+}
+
+.privacy-positivus-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.footer-nav-bar-lists {
+    display: flex;
+    list-style-type: none;
+    text-wrap: nowrap;
+    padding: 0;
+    gap: 20px;
+}
+
+.footer-nav-bar-lists a {
+    font-size: var(--fs-20);
+    color: white;
+}
+
+.social-logo {
+    display: flex;
+    gap: 20px;
+}
+
+/* navbar */
+
+/* content */
+.privacy-poloicy-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 27px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.contact-text {
+    background-color: var(--primary-color);
+    width: 129px;
+    font-size: var(--fs-20);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.address-details {
+    color: white;
+    font-size: var(--fs-18);
+    width: 322px;
+}
+
+.email-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #292A32;
+    padding: 40px 58px;
+    border-radius: 14px;
+}
+
+input[type="privacy-email"] {
+    width: 285px;
+    border-radius: 14px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 22px 35px;
+}
+
+.subscribe-button {
+    font-size: var(--fs-20);
+    background-color: var(--primary-color);
+    border-radius: 14px;
+    padding: 22px 35px;
+    border: none;
+    width: 249px;
+}
+
+.privacy-footer-copyright {
+    display: flex;
+    align-items: center;
+    padding-left: 95px;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.privacy-footer-copyright p {
+    font-size: var(--fs-18);
+    color: white;
+}
+
+.privacy-footer-terms a {
+    font-size: var(--fs-18);
+    color: #fff;
+}
+
+/* content */
+
+
+
+@media (max-width: 768px) {
+
+    .privacy-policy-section {
+        border-radius: 0px;
+        margin: 0px;
+    }
+
+    .footer-nav-bar {
+        text-align: center;
+    }
+
+    .footer-nav-bar-lists {
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .privacy-positivus-navbar {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer-nav-bar-lists li {
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    .footer-nav-bar-lists a {
+        font-size: var(--fs-20);
+        color: white;
+        text-decoration: none;
+    }
+
+    .privacy-poloicy-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .address-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .email-subscribe {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .subscribe-button {
+        width: 285px;
+    }
+
+    .privacy-footer-copyright {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+
+    .privacy-positivus-navbar {
+        width: 100%;
+    }
+
+    .privacy-poloicy-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-address {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .address-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .privacy-footer-copyright {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .privacy-policy-section {
+        margin: 50px 20px;
+    }
+
+    .email-subscribe {
+        padding: 40px 35px;
+    }
+}

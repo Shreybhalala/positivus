@@ -1,0 +1,181 @@
+.contactus-header {
+    display: flex;
+    padding-left: 90px;
+    align-items: center;
+    gap: 40px;
+}
+
+.contactus-text {
+    font-size: 40px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contactus-sub-text {
+    font-size: var(--fs-18);
+    color: var(--font-color);
+    width: 323px;
+}
+
+.contact-us-content {
+    padding: 40px;
+    background-color: #f3f3f3;
+    border-radius: 45px;
+    margin: 0 70px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type=radio] {
+    accent-color: var(--primary-color);
+}
+
+.radio-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-buttons p {
+    font-size: var(--fs-18);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 20px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 556px;
+}
+
+::placeholder {
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    max-width: 556px;
+    padding: 30px 18px;
+    border-radius: 14px;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 556px;
+
+}
+
+.contactus-banner {
+    position: absolute;
+    left: 755px;
+    top: 4790px;
+}
+
+.contactus-image {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .conact-us-section {
+        padding-bottom: 40px;
+    }
+
+    .contactus-header {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .contactus-text {
+        width: 100%;
+        max-width: 226px;
+        font-size: 36px;
+    }
+
+    .contactus-sub-text {
+        font-size: var(--fs-16);
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    .contact-us-content {
+        justify-content: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        padding: 30px 18px;
+    }
+
+    textarea {
+        padding: 30px 18px;
+        width: 100%
+    }
+
+    .button {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+
+    .contactus-image {
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .contactus-image {
+        display: none;
+    }
+
+    .contact-us-content {
+        padding: 20px 150px;
+        margin: 0 40px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .contactus-image {
+        display: none;
+    }
+
+    .contact-us-content {
+        padding: 20px 150px;
+        margin: 0 40px;
+    }
+
+}
