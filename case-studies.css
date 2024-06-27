@@ -64,6 +64,7 @@
 .case-button {
     display: flex;
     width: 140px;
+    cursor: pointer;
 }
 
 /* case studies content */

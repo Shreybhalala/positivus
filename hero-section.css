@@ -39,6 +39,7 @@ body {
     color: #000000;
     font-size: var(--fs-20);
     text-wrap: nowrap;
+    cursor: pointer;
 }
 
 
@@ -131,6 +132,7 @@ body {
     font-size: var(--fs-20);
     background-color: var(--secondary-color);
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .company-logo-bar {

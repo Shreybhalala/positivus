@@ -65,6 +65,7 @@
     height: 68px;
     border-radius: 14px;
     font-size: var(--fs-20);
+    cursor: pointer;
 }
 
 .card-in-image {

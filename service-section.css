@@ -65,6 +65,7 @@
 .card-button {
     display: flex;
     gap: 15px;
+    cursor: pointer;
 }
 
 /* grey color card */
