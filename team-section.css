@@ -1,7 +1,9 @@
+.team-section{
+    padding: 0 70px;
+}
 /*  header */
 .team-header {
     display: flex;
-    padding-left: 90px;
     align-items: center;
     gap: 40px;
 }
@@ -27,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    margin: 0 70px;
+    
 }
 
 .team-card-content {
@@ -115,7 +117,7 @@
     .team-card-section {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0px;
+        
     }
 
     .name-text {
@@ -141,7 +143,7 @@
     .team-card-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0px;
+        padding: 0px;
     }
 
     .name-text {

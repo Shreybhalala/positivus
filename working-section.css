@@ -1,7 +1,7 @@
 /* working header */
 .working-header {
     display: flex;
-    padding-left: 90px;
+    padding: 0 90px;
     align-items: center;
     gap: 40px;
 }
@@ -81,7 +81,7 @@
     .working-header {
         display: flex;
         flex-direction: column;
-        padding-left: 0px;
+        padding: 0px;
         align-items: center;
         gap: 0px;
         width: 100%;

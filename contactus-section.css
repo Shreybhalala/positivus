@@ -1,6 +1,11 @@
+.conact-us-section {
+    padding: 0 70px;
+    position: relative;
+    overflow: hidden;
+}
+
 .contactus-header {
     display: flex;
-    padding-left: 90px;
     align-items: center;
     gap: 40px;
 }
@@ -23,9 +28,7 @@
     padding: 40px;
     background-color: #f3f3f3;
     border-radius: 45px;
-    margin: 0 70px;
 }
-
 
 form {
     display: flex;
@@ -89,14 +92,11 @@ textarea {
 
 }
 
-.contactus-banner {
-    position: absolute;
-    left: 755px;
-    top: 4790px;
-}
-
 .contactus-image {
-    width: 100%;
+    position: absolute;
+ width: 500px;
+ left: 1000px;
+ bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -130,7 +130,7 @@ textarea {
     .contact-us-content {
         justify-content: center;
         padding: 20px;
-        margin: 0;
+
     }
 
     input[type="text"],
@@ -149,7 +149,11 @@ textarea {
         border-radius: 14px;
         cursor: pointer;
     }
+    
+.form-group {
+ 
 
+}
     .contactus-image {
         display: none;
     }
